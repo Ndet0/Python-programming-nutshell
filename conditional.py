@@ -27,4 +27,4 @@ password = input("Input password:")
 if username == "TheJackal" and password == "Secret":
     print("Welcome back, Sir!")
 else:
-    print("Access denieed!")
+    print("Access denied!")
