@@ -1,13 +1,13 @@
-class student:
-    school = "Moringa School" #class attribute
-    def __init__(self, name, grade= 0, cohort="August 2024", unit="Biology", email=None):
-        self.name=name #instance attribute
-        self.cohort=cohort 
-        self.email=email
-        self.grade=grade
-        self.unit=unit
+# class student:
+#     school = "Moringa School" #class attribute
+#     def __init__(self, name, grade= 0, cohort="August 2024", unit="Biology", email=None):
+#         self.name=name #instance attribute
+#         self.cohort=cohort 
+#         self.email=email
+#         self.grade=grade
+#         self.unit=unit
 
-        pass
+#         pass
     
     # def get_grade(self):
     #     return self._grade
@@ -35,27 +35,28 @@ class student:
 
 
 
-    def greet(self):
-        print(f"Hello, my name is {self.name} from {self.cohort} cohort taking {self.unit} at {self.school}.")
+#     def greet(self):
+#         print(f"Hello, my name is {self.name} from {self.cohort} cohort taking {self.unit} at {self.school}.")
 
-    def study(self, unit):
-        print(f"Hello I am studying {unit}")
+#     def study(self, unit):
+#         print(f"Hello I am studying {unit}")
 
-    pass
+#     pass
 
-alice = student("Alice")
-bob = student("Bob")
+# alice = student("Alice")
+# bob = student("Bob")
 
-class lecturer:
+# class lecturer:
 
-    pass
-alice.unit="Mathematics"
-alice.cohort="June 2024"
-alice.school = "strathmore"
+#     pass
+# alice.unit="Mathematics"
+# alice.cohort="June 2024"
+# alice.school = "strathmore"
 # print(alice.school)
-alice.greet()
+# alice.greet()
 # alice.study("Mathematics")
-bob.greet()
+# bob.greet()
 
 # print(type(alice))
 # print(type(1))
+
